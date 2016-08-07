@@ -9,7 +9,6 @@ sh bin/install_memcached
 sh bin/install_nodejs
 sh bin/install_nginx
 sh bin/install_phpfpm
-sh bin/install_phpmyadmin
 sh bin/install_mariadb
 
 

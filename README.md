@@ -17,7 +17,6 @@ The following software is installed on a Centos 7 system, using webtatic and epe
 * PHP-FPM 5.6
 * Composer
 * MariaDB 10.0
-* PhpMyAdmin
 * Memcached
 * Redis
 * NodeJS v0.10 & np2
