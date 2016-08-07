@@ -1,0 +1,4 @@
+#!/bin/sh
+
+yum -y clean all
+rm -R /docker

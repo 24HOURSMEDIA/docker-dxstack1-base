@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "DXSTACK1-BASE"
+echo "DXSTACK1-BASE" > /tmp/dxstack1-base
+# start a foreground process to keep the container running
+exec bash --login
