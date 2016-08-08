@@ -2,6 +2,8 @@
 
 # install supporting files
 yum -y install nano
+yum -y install git
+
 
 # install main packages
 sh bin/install_redis
