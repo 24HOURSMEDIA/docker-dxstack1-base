@@ -1,4 +1,8 @@
 #!/bin/bash
-yum -y install php56w php56w-cli php56w-fpm php56w-bcmath php56w-gd php56w-imap php56w-intl php56w-mbstring php56w-mcrypt php56w-mysqlnd php56w-opcache php56w-pdo php56w-pear php56w-pecl-apcu php56w-pecl-memcache php56w-pecl-memcached php56w-pecl-redis php56w-soap php56w-tidy php56w-xml php56w-xmlrpc
+yum -y install php56w php56w-cli php56w-fpm php56w-bcmath php56w-gd php56w-imap php56w-intl php56w-mbstring php56w-mcrypt php56w-mysqlnd php56w-opcache
+yum -y install php56w-pdo php56w-pear php56w-pecl-apcu php56w-pecl-memcache php56w-pecl-memcached php56w-pecl-redis php56w-soap php56w-tidy
+yum -y install php56w-xml php56w-xmlrpc
+
 yum -y install composer
 
+yum -y install phpunit
