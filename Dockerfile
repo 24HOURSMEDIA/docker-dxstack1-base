@@ -1,6 +1,6 @@
 FROM centos:7
 MAINTAINER info@24hoursmedia.com
-COPY /docker /docker
+COPY /docker /docker/dxstack1-base-1.5
 WORKDIR /docker/dxstack1-base-1.5
 
 ENV TZ=Europe/Amsterdam
