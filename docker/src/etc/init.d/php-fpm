@@ -21,7 +21,8 @@ stop() {
 
 restart() {
     echo -n $"Restarting $prog "
-    pkill php-fpm
+    #pkill php-fpm
+    kill $(pgrep -f php-fpm | grep -v ^$$\$)
     sleep 2
     echo ".."
     php-fpm

@@ -30,7 +30,8 @@ stop() {
 
 restart() {
     echo -n $"Restarting $prog "
-    pkill nginx
+    #pkill nginx
+    kill $(pgrep -f nginx | grep -v ^$$\$)
     sleep 2
     echo ".."
     nginx
