@@ -4,6 +4,11 @@
 yum -y install nano
 yum -y install git
 
+echo "Installing rsync 3.1"
+rpm -Uvh http://mirror.symnds.com/distributions/gf/el/7/plus/x86_64/rsync-3.1.1-6.gf.el7.x86_64.rpm
+
+
+
 
 # install main packages
 sh bin/install_redis
