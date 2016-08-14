@@ -3,6 +3,8 @@ MAINTAINER info@24hoursmedia.com
 COPY /docker /docker
 WORKDIR /docker/dxstack1-base-1.5
 
+ENV TZ=Europe/Amsterdam
+
 RUN sh bin/init
 RUN sh bin/install
 
