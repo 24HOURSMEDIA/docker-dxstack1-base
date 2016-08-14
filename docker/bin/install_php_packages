@@ -1,8 +1,12 @@
 #!/bin/bash
+
+echo "Installing php-fpm"
 yum -y install php56w php56w-cli php56w-fpm php56w-bcmath php56w-gd php56w-imap php56w-intl php56w-mbstring php56w-mcrypt php56w-mysqlnd php56w-opcache
 yum -y install php56w-pdo php56w-pear php56w-pecl-apcu php56w-pecl-memcache php56w-pecl-memcached php56w-pecl-redis php56w-soap php56w-tidy
 yum -y install php56w-xml php56w-xmlrpc
 
+cp src/etc/init.d/php-fpm /etc/init.d/php-fpm
+chmod +x /etc/init.d/php-fpm
 
 echo "Installing php-xdebug"
 yum -y install php56w-pecl-xdebug
