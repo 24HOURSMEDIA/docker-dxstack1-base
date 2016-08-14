@@ -3,6 +3,19 @@ yum -y install php56w php56w-cli php56w-fpm php56w-bcmath php56w-gd php56w-imap 
 yum -y install php56w-pdo php56w-pear php56w-pecl-apcu php56w-pecl-memcache php56w-pecl-memcached php56w-pecl-redis php56w-soap php56w-tidy
 yum -y install php56w-xml php56w-xmlrpc
 
+
+echo "Installing php-xdebug"
+yum -y install php56w-pecl-xdebug
+
+# phpunit
+echo "Installing php phpunit"
+yum -y install phpunit
+
+# composer
+echo "Installing php composer"
 yum -y install composer
 
-yum -y install phpunit
+# symfony
+echo "Installing php symfony"
+curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
+chmod a+x /usr/local/bin/symfony
