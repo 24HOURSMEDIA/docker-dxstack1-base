@@ -1,5 +1,7 @@
 # docker-dxstack1-base
 
+![version](https://img.shields.io/badge/version-v1.5--dev-orange.svg)
+
 Base docker image containing software to create a full stack development environment.
 
 This docker image only installs software but **does not run or start them** (this is meant to be done by specific derived images).
