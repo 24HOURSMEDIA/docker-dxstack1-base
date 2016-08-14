@@ -4,8 +4,11 @@ Base docker image containing software to create a full stack development environ
 
 This docker image only installs software but **does not run or start them** (this is meant to be done by specific derived images).
 
+[view the changelog](doc/changelog.md)
 
 *A lot of services are installed, resulting in a fairly large image.*
+
+
 
 ## Software installed
 
@@ -16,6 +19,7 @@ The following software is installed on a Centos 7 system, using webtatic and epe
 * NginX 1.6
 * PHP-FPM 5.6
 * Composer
+* Git
 * MariaDB 10.0
 * Memcached
 * Redis
