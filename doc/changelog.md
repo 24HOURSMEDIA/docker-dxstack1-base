@@ -6,6 +6,7 @@ v1.0 -> v1.5
 
 * /etc/init.d entry for nginx (start,stop,restart)
 * /etc/init.d entry for php-fpm (start,stop,restart)
+* Timezone is passed as environment variable TZ (default Europe/Amsterdam)
 
 **updated software versions:**
 

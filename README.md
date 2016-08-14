@@ -1,6 +1,6 @@
 
-![latest dev version](https://img.shields.io/badge/version-v1.5--dev-orange.svg)
-![stability](https://img.shields.io/badge/stability-UNSTABLE-red.svg)
+![version](https://img.shields.io/badge/version-v1.5-green.svg)
+![stability](https://img.shields.io/badge/stability-STABLE-green.svg)
 
 ### DXSTACK1-base
 ## Base image for full php development stack
