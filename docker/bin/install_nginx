@@ -1,3 +1,4 @@
 #!/bin/bash
 
 yum -y install nginx
+cp src/etc/init.d/nginx /etc/init.d/nginx
