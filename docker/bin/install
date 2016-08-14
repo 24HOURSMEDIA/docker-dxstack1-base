@@ -2,13 +2,21 @@
 
 # install supporting files
 yum -y install nano
+yum -y install git
+
+echo "Installing rsync 3.1"
+rpm -Uvh http://mirror.symnds.com/distributions/gf/el/7/plus/x86_64/rsync-3.1.1-6.gf.el7.x86_64.rpm
+
+echo "Installing lsyncd"
+yum -y install lsyncd
+
 
 # install main packages
 sh bin/install_redis
 sh bin/install_memcached
-sh bin/install_nodejs
+sh bin/install_node_packages
 sh bin/install_nginx
-sh bin/install_phpfpm
+sh bin/install_php_packages
 sh bin/install_mariadb
 
 

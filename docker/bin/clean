@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 yum -y clean all
 rm -R /docker
