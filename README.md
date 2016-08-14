@@ -1,4 +1,5 @@
-![version](https://img.shields.io/badge/version-v1.5--dev-orange.svg)
+[![stable version](https://img.shields.io/badge/stable_release-v1.0-green.svg)](/24HOURSMEDIA/docker-dxstack1-base/tree/v1.0)
+[![latest version](https://img.shields.io/badge/latest_version-v1.5--dev-orange.svg)](/24HOURSMEDIA/docker-dxstack1-base)
 
 # docker-dxstack1-base
 
