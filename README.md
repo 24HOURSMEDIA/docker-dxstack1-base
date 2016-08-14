@@ -2,7 +2,9 @@
 ![latest dev version](https://img.shields.io/badge/version-v1.5--dev-orange.svg)
 ![stability](https://img.shields.io/badge/stability-UNSTABLE-red.svg)
 
-# docker-dxstack1-base
+### DXSTACK1-base
+## Base image for full php development stack
+
 
 
 
