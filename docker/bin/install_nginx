@@ -2,3 +2,5 @@
 
 yum -y install nginx
 cp src/etc/init.d/nginx /etc/init.d/nginx
+chmod +x /etc/init.d/nginx
+
