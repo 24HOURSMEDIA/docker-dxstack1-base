@@ -1,0 +1,47 @@
+#!/bin/sh
+# php-fpm
+
+
+prog=php-fpm
+
+start() {
+
+    echo -n $"Starting $prog "
+    php-fpm
+    echo ""
+    return 0
+}
+
+stop() {
+    echo -n $"Stopping $prog "
+    pkill php-fpm
+    echo ""
+    return 0
+}
+
+restart() {
+    echo -n $"Restarting $prog "
+    pkill php-fpm
+    sleep 2
+    echo ".."
+    php-fpm
+    return 0
+}
+
+
+case "$1" in
+    start)
+        $1
+        ;;
+    stop)
+        $1
+        ;;
+    restart)
+        $1
+        ;;
+    configtest)
+        $1
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|restart}"
+esac
