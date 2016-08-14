@@ -10,7 +10,7 @@ sh bin/install_redis
 sh bin/install_memcached
 sh bin/install_nodejs
 sh bin/install_nginx
-sh bin/install_phpfpm
+sh bin/install_php_packages
 sh bin/install_mariadb
 
 
